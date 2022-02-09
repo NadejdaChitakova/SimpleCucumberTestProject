@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="booking.RunCucumberTest" time="0.189" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Nadejda\IdeaProjects\booking\target\test-classes;C:\Users\Nadejda\IdeaProjects\booking\target\classes;C:\Users\Nadejda\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\Nadejda\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.0.0\cucumber-junit-platform-engine-7.0.0.jar;C:\Users\Nadejda\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Nadejda\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Nadejda\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\platform\junit-platform-suite\1.8.1\junit-platform-suite-1.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.1\junit-platform-suite-engine-1.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\Nadejda\AppData\Local\Temp\surefire12939105131149240503\surefirebooter1595748131480973192.jar C:\Users\Nadejda\AppData\Local\Temp\surefire12939105131149240503 2022-02-10T00-46-27_068-jvmRun1 surefire2683431565192953249tmp surefire_09123900833663279251tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Nadejda\IdeaProjects\booking\target\test-classes;C:\Users\Nadejda\IdeaProjects\booking\target\classes;C:\Users\Nadejda\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\Nadejda\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Nadejda\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.0.0\cucumber-junit-platform-engine-7.0.0.jar;C:\Users\Nadejda\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Nadejda\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Nadejda\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\platform\junit-platform-suite\1.8.1\junit-platform-suite-1.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.1\junit-platform-suite-engine-1.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\Nadejda\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Nadejda"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Nadejda\IdeaProjects\booking"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Nadejda\AppData\Local\Temp\surefire12939105131149240503\surefirebooter1595748131480973192.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="Nadejda"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Nadejda\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Nadejda\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="C:\Users\Nadejda\IdeaProjects\booking"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft\Azure Functions Core Tools\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Users\Nadejda\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Users\Nadejda\AppData\Local\Microsoft\WindowsApps;C:\Users\Nadejda\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\ProgramData\Nadejda\atom\bin;C:\Users\Nadejda\AppData\Local\atom\bin;C:\Users\Nadejda\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Nadejda\AppData\Roaming\npm;C:\Users\Nadejda\.dotnet\tools;C:\Users\Nadejda\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="I want to make an appointment with a dentist like unregistred user" classname="Make an appointment with a dentist" time="0.059">
+    <system-out><![CDATA[
+Scenario: I want to make an appointment with a dentist like unregistred user &amp#27;[90m# booking/Booking.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI want to see available periods&amp#27;[0m                                      &amp#27;[90m# booking.BookingSteps.i_want_to_see_available_periods()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI select available period&amp#27;[0m                                             &amp#27;[90m# booking.BookingSteps.i_select_available_period()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter my data&amp#27;[0m                                                          &amp#27;[90m# booking.BookingSteps.enter_my_data()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive a confirmation email&amp#27;[0m                                        &amp#27;[90m# booking.BookingSteps.i_receive_a_confirmation_email()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="I want to make an appointment with a dentist like registred user" classname="Make an appointment with a dentist" time="0.007">
+    <system-out><![CDATA[
+Scenario: I want to make an appointment with a dentist like registred user &amp#27;[90m# booking/Booking.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI want to see available periods&amp#27;[0m                                    &amp#27;[90m# booking.BookingSteps.i_want_to_see_available_periods()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI select available period&amp#27;[0m                                           &amp#27;[90m# booking.BookingSteps.i_select_available_period()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter my data&amp#27;[0m                                                        &amp#27;[90m# booking.BookingSteps.enter_my_data()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive a confirmation email&amp#27;[0m                                      &amp#27;[90m# booking.BookingSteps.i_receive_a_confirmation_email()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="I want to make an appointment with a dentist like dentist" classname="Make an appointment with a dentist" time="0.008">
+    <system-out><![CDATA[
+Scenario: I want to make an appointment with a dentist like dentist &amp#27;[90m# booking/Booking.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI want to see available periods&amp#27;[0m                             &amp#27;[90m# booking.BookingSteps.i_want_to_see_available_periods()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI select available period&amp#27;[0m                                    &amp#27;[90m# booking.BookingSteps.i_select_available_period()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter my data&amp#27;[0m                                                 &amp#27;[90m# booking.BookingSteps.enter_my_data()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI dont receive a confirmation email&amp#27;[0m                          &amp#27;[90m# booking.BookingSteps.i_dont_receive_a_confirmation_email()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="I want to add available period like dentist" classname="Adding available periods in calendar" time="0.007">
+    <system-out><![CDATA[
+Scenario: I want to add available period like dentist &amp#27;[90m# Calendar/Calendar.feature:6&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI want to get available periods&amp#27;[0m               &amp#27;[90m# booking.CalendarSteps.i_want_to_get_available_periods()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add new periods&amp#27;[0m                              &amp#27;[90m# booking.CalendarSteps.i_add_new_periods()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI see successfuly added periods&amp#27;[0m                &amp#27;[90m# booking.CalendarSteps.i_see_successfuly_added_periods()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Negative test: I want to add available period like employes" classname="Adding available periods in calendar" time="0.007">
+    <system-out><![CDATA[
+Scenario: Negative test: I want to add available period like employes &amp#27;[90m# Calendar/Calendar.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI want to get available periods&amp#27;[0m                               &amp#27;[90m# booking.CalendarSteps.i_want_to_get_available_periods()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI try to insert new dates&amp#27;[0m                                      &amp#27;[90m# booking.CalendarSteps.i_try_to_insert_new_dates()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI get exception&amp#27;[0m                                                &amp#27;[90m# booking.CalendarSteps.i_get_exception()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
